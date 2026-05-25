@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mgs. Contadora - Marca Personal & Consultoría</title>
+    <style>
+        :root {
+            --primary: #0f172a; /* Azul ejecutivo oscuro */
+            --accent: #b45309;  /* Dorado / Bronce corporativo */
+            --bg: #f8fafc;
+            --text: #334155;
+            --card-bg: #ffffff;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .hero {
+            background-color: var(--primary);
+            color: white;
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: -0.5px;
+        }
+        .hero p {
+            margin: 0.5rem 0 1.5rem 0;
+            font-size: 1.2rem;
+            color: #94a3b8;
+        }
+        .badge {
+            background-color: var(--accent);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .container {
+            max-width: 900px;
+            margin: -2rem auto 2rem auto;
+            padding: 0 1rem;
+        }
+        .card {
+            background: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        .service-item {
+            background: #f8fafc;
+            padding: 1.25rem;
+            border-radius: 8px;
+            border-top: 3px solid var(--accent);
+        }
+        .service-item h3 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+        .btn-container {
+            text-align: center;
+            margin: 2.5rem 0;
+        }
+        .btn-main {
+            background-color: var(--accent);
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            transition: background 0.3s;
+            display: inline-block;
+        }
+        .btn-main:hover {
+            background-color: #92400e;
+        }
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            padding: 1rem 1.2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            z-index: 1000;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <span class="badge">Consultoría Corporativa y Gubernamental</span>
+        <h1>Mgs. Especialista Contable</h1>
+        <p>Soluciones Avanzadas en Gestión Tributaria, Financiera y Auditoría Integral</p>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h2>Perfil Profesional</h2>
+            <p>Profesional de alto nivel con Magíster en Gestión Tributaria y Financiera. Especializada en optimización fiscal estratégica, diseño de estructuras financieras corporativas y auditorías integrales tanto para el sector privado como gubernamental. Orientada a garantizar el estricto cumplimiento normativo ante el SRI y potenciar la rentabilidad de su negocio.</p>
+        </div>
+
+        <div class="card">
+            <h2>Portafolio de Servicios Corporativos</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <h3>Asesoría & Planificación Tributaria</h3>
+                    <p>Optimización legal del pago de impuestos y manejo preventivo de obligaciones fiscales ante el SRI.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Auditoría Financiera y Contable</h3>
+                    <p>Evaluación y dictamen de estados financieros para asegurar transparencia y control interno efectivo.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Consultoría Gubernamental</h3>
+                    <p>Estructuración de presupuestos, control contable y asesoramiento bajo normativas específicas del sector público.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-container">
+            <a href="blog.html" class="btn-main">Explorar Blog de Actualidad Tributaria 📄</a>
+        </div>
+    </div>
+
+    <a href="https://wa.me/593900000000?text=Hola,%20solicito%20una%20consultor%C3%ADa%20financiera/tributaria." class="whatsapp-float" target="_blank">
+        💬 Agendar Consultoría Directa
+    </a>
+
+    <footer>
+        &copy; 2026 Mgs. Especialista - Desarrollado por Pixel & Data
+    </footer>
+
+</body>
+</html>
